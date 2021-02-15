@@ -5,6 +5,8 @@
 📄 감정 인식 알고리즘 기반의 청중 반응 분석 시스템 재구성
 
 ### 1. 머신러닝을 적용해 최적의 분류 모델 찾기
-  - 데이터 수가 적으므로 cross-validation(교차 검증) 필요  
+  - decision tree
+  - random forest
+  - gradient boosting
 ### 2. 딥러닝 적용해보기
 
