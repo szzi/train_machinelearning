@@ -20,6 +20,9 @@
   
   ### 궁금증,,? 
   - 데이터를 다시 봤을 때, train/valid 데이터의 형태와 test data가 많이 형태가 다름.. normalization?을 해서 적용해야할까?
+  - train/valid data는 이상치라고 해야하나,, 극단적인 값이 많아서 robustScaler를 적용했는데, 변환한 내용이 accuracy에 영향을 끼치지는 않았음(3/4)
+  - 근데 test data가 다른 형태의 data라고 했는데,, 위에서 적용한 scaler를 그대로 적용하면 그 극단적인 추이에 맞춰서 변환될 것 같아서 test data에 robustScaler를 fit_transform 모두 적용했는데, 이렇게 해도 되는 건지 모르겠음 ,, 
+  - 인터넷 검색했을 때는, 학습 데이터 셋으로 fit된 scaler를 가지고 테스트변환할 때 써야한다고 되어있었음.
 
 ## 2. 딥러닝 적용해보기
 
